@@ -10,3 +10,15 @@ point.add({
             color : Cesium.Color.YELLOW
     }
 });
+
+
+//ƒ|ƒCƒ“ƒg‚ð’Ç‰Á
+var point2 = viewer.entities;
+
+point2.add({
+        position : Cesium.Cartesian3.fromDegrees(-90.59777, 40.03883),
+        point : {
+            pixelSize : 10,
+            color : Cesium.Color.BLUE
+    }
+});
